@@ -17,13 +17,20 @@ namespace SimpleGridBasedGames
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void uxChangeColor1_Click(object sender, EventArgs e)
         {
-            Forms.Viewport viewport = new Forms.Viewport();
+            if (uxColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                uxColor1.BackColor = uxColorDialog.Color;
+            }
+        }
 
-            Hide();
-            viewport.ShowDialog();
-            Show();
+        private void uxChangeColor2_Click(object sender, EventArgs e)
+        {
+            if (uxColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                uxColor2.BackColor = uxColorDialog.Color;
+            }
         }
     }
 }
