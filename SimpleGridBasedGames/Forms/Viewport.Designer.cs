@@ -44,7 +44,7 @@ namespace SimpleGridBasedGames.Forms
             this.uxViewPort.TabIndex = 0;
             this.uxViewPort.TabStop = false;
             // 
-            // uxGameScreen
+            // Viewport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -52,7 +52,7 @@ namespace SimpleGridBasedGames.Forms
             this.Controls.Add(this.uxViewPort);
             this.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "uxGameScreen";
+            this.Name = "Viewport";
             this.Text = "GameScreen";
             ((System.ComponentModel.ISupportInitialize)(this.uxViewPort)).EndInit();
             this.ResumeLayout(false);

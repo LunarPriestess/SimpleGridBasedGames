@@ -8,7 +8,7 @@ namespace GridLibrary
     /// A grid of <see cref="GridNode{TValue}"/> used in grid based games.
     /// </summary>
     /// <typeparam name="TValue"></typeparam>
-    class GridSpace<TValue>
+    public class GridSpace<TValue>
     {
         /// <summary>
         /// The grid of <see cref="GridNode{TValue}"/> that make up the <see cref="GridSpace{TValue}"/>.

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGridBasedGames", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLibrary", "GridLibrary\GridLibrary.csproj", "{C9C8A795-81EF-46F4-90F3-E596F43A1A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesLibrary", "GridGames\GamesLibrary.csproj", "{E42470DA-7897-492D-8E9E-6BAE0AFB6C61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9C8A795-81EF-46F4-90F3-E596F43A1A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C8A795-81EF-46F4-90F3-E596F43A1A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C8A795-81EF-46F4-90F3-E596F43A1A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42470DA-7897-492D-8E9E-6BAE0AFB6C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42470DA-7897-492D-8E9E-6BAE0AFB6C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42470DA-7897-492D-8E9E-6BAE0AFB6C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42470DA-7897-492D-8E9E-6BAE0AFB6C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

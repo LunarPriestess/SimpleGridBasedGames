@@ -99,6 +99,10 @@
     <None Include="Resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GridGames\GamesLibrary.csproj">
+      <Project>{e42470da-7897-492d-8e9e-6bae0afb6c61}</Project>
+      <Name>GamesLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GridLibrary\GridLibrary.csproj">
       <Project>{c9c8a795-81ef-46f4-90f3-e596f43a1a0b}</Project>
       <Name>GridLibrary</Name>
