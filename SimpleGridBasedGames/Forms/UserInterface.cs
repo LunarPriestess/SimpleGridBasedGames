@@ -16,5 +16,14 @@ namespace SimpleGridBasedGames
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Forms.Viewport viewport = new Forms.Viewport();
+
+            Hide();
+            viewport.ShowDialog();
+            Show();
+        }
     }
 }
