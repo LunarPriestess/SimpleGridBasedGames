@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Grid Library Class Diagram:&#xD;&#xA;This Library is used for the construction of a &quot;grid space&quot; that is comprised of nodes with a generic data type.">
+    <Position X="2.015" Y="0.5" Height="0.933" Width="2.675" />
+  </Comment>
+  <Class Name="GridLibrary.GridNode&lt;TValue&gt;">
+    <Position X="4.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAYAA=</HashCode>
+      <FileName>GridNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridLibrary.GridSpace&lt;TValue&gt;">
+    <Position X="2" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAAAEAECIAAAAAAAAAQAAAAgAAAAAgAAAA=</HashCode>
+      <FileName>GridSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridLibrary.InvalidDirectionException">
+    <Position X="8" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidDirectionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GridLibrary.Direction">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCCABABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

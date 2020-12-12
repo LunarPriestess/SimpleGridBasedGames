@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SimpleGridBasedGames.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GridLibrary\GridLibrary.csproj">
+      <Project>{c9c8a795-81ef-46f4-90f3-e596f43a1a0b}</Project>
+      <Name>GridLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
