@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GamesLibrary;
+using SimpleGridBasedGames.Forms;
 
 namespace SimpleGridBasedGames
 {
     public partial class UserInterface : Form
     {
+        public TestGame Game { get; set; }
+
         public UserInterface()
         {
             InitializeComponent();
@@ -19,11 +23,9 @@ namespace SimpleGridBasedGames
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Forms.Viewport viewport = new Forms.Viewport();
-
+            Viewport viewport = new Viewport();
             Hide();
-            viewport.ShowDialog();
-            Show();
+            if (viewport.ShowDialog() == DialogResult.Cancel) Show();
         }
     }
 }
